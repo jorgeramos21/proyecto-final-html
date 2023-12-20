@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="image/logo.ico" type="image/x-icon">
+    <title>Registrase</title>
+</head>
+<body>
+    <h1><a href="loging.html">Atras</a></h1>
+    <h1 align="center"><strong><em>Bienvenido a nuestra pagina de Registro de Usuario.</em></strong></h1>
+    <br>
+    <h2 align="center">para continuar favor completar el registro de nuevo usuario</h2>
+    <header>
+        <br>
+        <br>
+        <h3 align="center"><strong><i><q>Registra tus datos <mark>aqui</mark></q></i></strong></h3>
+        <form>
+            <fieldset>
+                <legend><h3>Nombre y Apellidos</h3></legend>
+                <label for="nombre">Nombre (*)</label><br>
+                <input type="text" placeholder="nombre de Usuario" name="nombre_usuario" autofocus required size="20" id="nombre">
+                <br>
+                <br>
+                <label for="apellido">Apellidos (*)</label><br>
+                <input type="text" placeholder="Apellidos" name="Apellidos_usuario" required size="20" id="apellido">
+            </fieldset>
+
+            <fieldset>
+                <legend><h3>Correo Electronico y Telefono</h3></legend>
+                <label for="correo">Correo Electronico (*)</label><br>
+                <input type="email" placeholder="ingresar Correo Electronico" id="correo" size="25" required name="correo_usuario"><br><br>
+                
+                <label for="telefono">Numero De Telefono (*)</label><br>
+                <input type="tel" placeholder="Numero De Telefono" name="telefono_usuario" size="25" required id="telefono">
+            </fieldset>
+
+            <fieldset>
+                <legend><h3>Contraseña</h3></legend>
+                <label for="contraseña">Contraseña Nueva (*)</label><br>
+                <input type="password" name="contraseña_usuario" id="contraseña" placeholder="Ingresar Nueva Contraseña" size="25" required><br><br>
+                
+                <label for="contraseña2">Confirmar Contraseña (*)</label><br>
+                <input type="password" placeholder="Confirmar Contraseña" id="contraseña2" size="25" name="confirmar_contraseña_usuario" required>
+            </fieldset>
+
+            <fieldset>
+                <legend><h3>Pais de Origen y Ciudad</h3></legend>
+                <label for="pais">Pais (*)</label><br>
+                <input type="text" placeholder="ingresar pais" name="pais_usuario" id="pais" size="25" required><br><br>
+
+                <label for="ciudad">Provincia or Ciudad (*)</label><br>
+                <input type="text" placeholder="provincia or ciudad" name="ciudad_usuario" id="ciudad" size="25" required>
+
+            </fieldset>
+
+            <fieldset>
+                <legend><h3>Documento de Identificacion</h3></legend>
+                <label for="cedula">ID Cedula or/ Passaporte (*)</label><br>
+                <input type="text" placeholder="Cedula or Passaporte" name="passaporteorcedula_usuario" size="25" required>
+            </fieldset>
+            <p><h3>crear cuenta <button>
+                <a href="loging.html">Enviar</a>
+            </button></h3></p>
+
+            
+            
+        </form>
+    </header>
+
+    
+</body>
+</html>
